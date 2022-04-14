@@ -11,6 +11,10 @@ header{
     width: 100%;
 }
 
+button:hover{
+    transform: scale(1.5);
+}
+
 nav img{
     width: 250px;
 }
