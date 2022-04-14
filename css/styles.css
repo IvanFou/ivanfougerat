@@ -179,3 +179,11 @@ footer img{
     width: 20%;
     height: 70%;
 }
+
+@media (min-width:100px) and (max-width: 1200px){
+    .header__nav {
+        margin-left: 45%;
+    }
+
+
+}

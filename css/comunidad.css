@@ -1,6 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Noto+Sans:wght@700&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Noto+Sans:wght@700&family=Open+Sans:wght@300&display=swap');
-
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
 
 header{
     background: url("https://i.postimg.cc/5NMRF330/latam.png");
@@ -52,7 +50,7 @@ nav img{
     margin-left: 5%;
     justify-content: flex-end;
     color: white;
-    font-family: Noto Sans, sans-serif;
+    font-family: Roboto;
 }
 
 
@@ -69,7 +67,7 @@ nav img{
 }
 
 h1{
-    font-family: Noto Sans;
+    font-family: Roboto;
     color: white;
     font-size: 40px;
     justify-content: center;
@@ -87,7 +85,7 @@ h1{
     text-align: center;
     align-items: center;
     font-size: 18px;
-    font-family: Open Sans;
+    font-family: Roboto;
     margin-top: 2%;
     margin-bottom: 2%;
 }
@@ -98,5 +96,23 @@ h1{
     grid-template-columns: repeat(4,25%);
     margin-left: 2%;
     margin-bottom: 5%;
+}
+
+.blog{
+    margin: 4%;
+    display: grid;
+    grid-template-columns: repeat(2,50%);
+    text-align: center;
+}
+
+.blog-descripcion{
+    font-family: Roboto;
+    text-align: justify;
+    padding: 5%;
+    margin-top: 5%;
+}
+
+.blog img{
+    width: 99%;
 }
 
