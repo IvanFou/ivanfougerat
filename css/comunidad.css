@@ -1,0 +1,83 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans:wght@700&family=Open+Sans:wght@300&display=swap');
+
+
+header{
+    background: url("https://i.postimg.cc/5NMRF330/latam.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: top;
+    margin-top: 0%;
+    width: 100%;
+}
+
+nav img{
+    width: 250px;
+}
+
+a:hover{
+    cursor: pointer;
+    transform: scale(1.58);
+}
+
+.navegacion{
+    display: flex;
+}
+
+.navegacion ul{
+    display: flex;
+}
+
+.navegacion li{
+    list-style: none;
+    margin-left: 5%;
+    justify-content: flex-end;
+    color: white;
+    font-family: Noto Sans, sans-serif;
+}
+
+
+.listado{
+    justify-content: flex-end;
+    margin-left: 64%;
+}
+
+
+.encabezado{
+    text-align: center;
+    margin-top: 6%;
+    padding-bottom: 10%;
+}
+
+h1{
+    font-family: Noto Sans;
+    color: white;
+    font-size: 40px;
+    justify-content: center;
+}
+
+.gdsc-descripcion{
+    background-color: rgb(56, 129, 224);
+    padding: 3.4%;
+    margin-left: -1%;
+    margin-right: 0%;
+}
+
+.gdsc-descripcion p{
+    color: white;
+    text-align: center;
+    align-items: center;
+    font-size: 18px;
+    font-family: Open Sans;
+    margin-top: 2%;
+    margin-bottom: 2%;
+}
+
+.eventos{
+    margin-top: 5%;
+    display: grid;
+    grid-template-columns: repeat(4,25%);
+    margin-left: 2%;
+    margin-bottom: 5%;
+}
+
