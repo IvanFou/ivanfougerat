@@ -7,7 +7,7 @@ header{
     background-position: top;
     margin-top: 0%;
     width: 100%;
-    z-index: initial;
+    height: 110%;
 }
 
 button:hover{
@@ -75,7 +75,7 @@ h1{
 }
 
 .gdsc-descripcion{
-    background-color: #fab101;
+    background-color: #ffc600;
     padding: 3.4%;
     margin-left: -1%;
     margin-right: 0%;
