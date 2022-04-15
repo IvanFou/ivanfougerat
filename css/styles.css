@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Noto+Sans:wght@700&display=swap');
 
 :root{
-    --gradiant:radial-gradient(41.48% 11.48% at 2.38% 8.52%, #747DE9 0%, rgba(255, 255, 255, 0) 100%), linear-gradient(135deg, #6bc5c8 0%, #5151E5 100%);
+    --gradiant:radial-gradient(41.48% 11.48% at 2.38% 8.52%, #fab101 0%, #ffc600 100%), linear-gradient(135deg, #ffc600 0%, #febb00 100%);
 }
 
 *{
@@ -23,7 +23,7 @@ header {
 h1{
   font-size: 2rem;
   font-family: 'Noto Sans', sans-serif;
-  color: #17173a;
+  color: black;
 }
 
 
@@ -149,7 +149,7 @@ main{
 
 button{
     margin-top: 5%;
-    background: #17173a;
+    background-color: #0000;
     border: none;
     border-radius: 25px;
     color: aliceblue;

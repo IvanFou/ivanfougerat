@@ -74,10 +74,11 @@ h1{
 }
 
 .gdsc-descripcion{
-    background-color: rgb(56, 129, 224);
+    background-color: #fab101;
     padding: 3.4%;
     margin-left: -1%;
     margin-right: 0%;
+    z-index: initial;
 }
 
 .gdsc-descripcion p{
@@ -98,21 +99,6 @@ h1{
     margin-bottom: 5%;
 }
 
-.blog{
-    margin: 4%;
-    display: grid;
-    grid-template-columns: repeat(2,50%);
-    text-align: center;
+.btn{
+    background-color: #fab101;
 }
-
-.blog-descripcion{
-    font-family: Roboto;
-    text-align: justify;
-    padding: 5%;
-    margin-top: 5%;
-}
-
-.blog img{
-    width: 99%;
-}
-
