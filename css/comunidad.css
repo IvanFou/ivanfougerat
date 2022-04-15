@@ -7,6 +7,7 @@ header{
     background-position: top;
     margin-top: 0%;
     width: 100%;
+    z-index: initial;
 }
 
 button:hover{
@@ -78,11 +79,10 @@ h1{
     padding: 3.4%;
     margin-left: -1%;
     margin-right: 0%;
-    z-index: initial;
 }
 
 .gdsc-descripcion p{
-    color: white;
+    color: black;
     text-align: center;
     align-items: center;
     font-size: 18px;

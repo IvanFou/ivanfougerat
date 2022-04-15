@@ -9,7 +9,7 @@
 }
 
 body{
-    color: white;
+    color: black;
     background: var(--gradiant);
     z-index: initial;
 }
@@ -28,14 +28,13 @@ h1{
 
 
 .header__nav {
-    color: aliceblue;
     list-style: none;
     display: flex;
     margin-left: 55%;
 }
 
 .header__nav a{
-      color: aliceblue;
+      color: black;
       text-decoration: none;
       font-size: 20px;
       font-family: 'Muli',sans-serif;
@@ -87,7 +86,7 @@ h1{
 }
 
 .hero-description p{
-    color: white;
+    color: black;
 }
 
 .hero-image img{
@@ -103,7 +102,7 @@ main{
 
 .curriculum{
     margin-top: 5%;
-    background: #17173a;
+    background: rgb(158, 53, 53);
     border: none;
     border-radius: 5px;
     color: aliceblue;
@@ -149,7 +148,7 @@ main{
 
 button{
     margin-top: 5%;
-    background-color: #0000;
+    background-color: black;
     border: none;
     border-radius: 25px;
     color: aliceblue;
