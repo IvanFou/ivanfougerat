@@ -35,7 +35,7 @@ nav img{
 }
 
 .header__nav a:hover{
-    color: aquamarine;
+    color: black;
     text-decoration: none;
 }
 .navegacion{
@@ -89,6 +89,10 @@ h1{
     font-family: Roboto;
     margin-top: 2%;
     margin-bottom: 2%;
+}
+
+.card-text{
+    text-align: justify;
 }
 
 .eventos{

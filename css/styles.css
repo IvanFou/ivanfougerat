@@ -42,7 +42,7 @@ h1{
 }
 
 .header__nav a:hover{
-    color: aquamarine;
+    color: white;
     text-decoration: none;
 }
 
@@ -139,13 +139,18 @@ main{
 
 .proyecto-trabajo{
     margin-top: 5%;
-    margin-bottom: 40%;
+    margin-bottom: 20%;
+}
+
+.card-icons{
+    margin-top: 5%;
+    margin-left: 5%;
 }
 
 .card-text{
     text-align: justify;
     margin: 2%;
-    margin-top: 5%;
+    margin-top: 1%;
 }
 
 .proyecto-trabajo img{
@@ -177,7 +182,7 @@ footer{
 footer p{
     margin-top: 2%;
     margin-left: 20%;
-    color: white;
+    color: black;
 }
 
 footer img{

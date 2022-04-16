@@ -34,7 +34,7 @@ nav img{
 }
 
 .header__nav a:hover{
-    color: aquamarine;
+    color: black;
     text-decoration: none;
 }
 
@@ -129,4 +129,5 @@ h1{
 .card-body{
     padding: 5%;
     margin-top:20%;
+    color: black;
 }
