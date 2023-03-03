@@ -3,129 +3,176 @@
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <link rel="stylesheet" href="./css/comunidad.css">
-    <link rel="shortcut icon" href="./icons/Comunity.png">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/css/bootstrap.min.css" integrity="sha384-zCbKRCUGaJDkqS1kPbPd7TveP5iyJE0EjAuZQTgFLD2ylzuqKfdKlfG/eSrtxUkn" crossorigin="anonymous">
-    <title>Comunidad</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+    <script src="./main.js"></script>
+    <link rel="shortcut icon" href="https://i.postimg.cc/QdB18Yhv/1-Portada.png">
+    <link rel="stylesheet" href="style.css">
+    <title>Eventos</title>
 </head>
 <body>
-    <header>
-         <nav class="navegacion">
-        <img src="./icons/Logo.png" alt="">
-        <nav class="header__nav">
-          <li><a href="./index.html">Proyectos </a></li>
-          <li><a href="./conoceme.html">Conoceme </a></li>
-      </nav>  
-    </section>
-    </nav>
+    <section class="carousels">
 
-    <section class="encabezado">
-        <h1>Comunidad Google Developer Student Clubs Latam</h1>
-    </section>
-    </header>
-   
-    <main>
-        <section class="gdsc-descripcion">
-        <p>Los Clubes de Estudiantes Desarrolladores de Google son
-             grupos de la comunidad universitaria para estudiantes interesados
-              en las tecnologías para desarrolladores de Google. Los estudiantes 
-              de todos los programas de grado o posgrado con interés en crecer como 
-              desarrolladores son bienvenidos.
-              Durante el año 2021 fui seleccionado para ser lider en la Universidad
-              Veracruzana y desde ese momento he estado realizando distintos eventos
-              de tecnologia</p>
-    </section>
-    </main>
+      <nav class="navbar navbar-expand-lg nav-light bg-ligth fixed-top">
+        <div class="container-fluid">
+          <div class="collapse navbar-collapse " id="navbarNav">
+            <ul class="navbar-nav mx-auto">
+              <li class="nav-item">
+                <a class="nav-link" href="./index.html">Inicio</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Conoceme</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="./proyectos.html">Portafolio</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Comunidades</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
 
-    <section class="eventos"> 
-        <div class="card" style="width: 18rem;">
-            <img src="https://i.postimg.cc/rmKvQw0w/Conference.png" class="card-img-top" alt="...">
-            <div class="card-body">
-              <h5 class="card-title">Latam Conference</h5>
-              <p class="card-text">Es un magno evento creado por y para estudiantes
-                interesados en las tecnologías de Google de parte
-                de las comunidades GDSC de Latinoamérica.</p>
-              <a href="https://gdsc.community.dev/e/mgsxuv/" target="blank" class="btn btn-warning">Ir al sitio</a>
-            </div>
+      <div id="carouselExampleAutoplaying" class="carousel slide" data-bs-ride="carousel">
+        <div class="carousel-inner">
+          <div class="carousel-item active" data-bs-interval="10000">
+            <img src="https://i.postimg.cc/KjGvZpyT/Fondo-2.png" class="d-block w-100" alt="...">
           </div>
-          <div class="card" style="width: 18rem;">
-            <img src="./icons/Android.png" class="card-img-top" alt="...">
-            <div class="card-body">
-              <h5 class="card-title">Android Study Jams</h5>
-              <p class="card-text">Un Android Study Jams es un grupo de estudio 
-                  organizado por la comunidad para que las personas aprendan a crear
-                   aplicaciones de Android en el lenguaje de programación Kotlin.</p>
-              <a href="https://gdsc.community.dev/e/m4jpdr/" target="blank" class="btn btn-warning">Ir al sitio</a>
-            </div>
+          <div class="carousel-item" data-bs-interval="20000">
+            <img src="https://i.postimg.cc/6qHTkfR0/Fondo-5.png" class="d-block w-100" alt="...">
           </div>
-          <div class="card" style="width: 18rem;">
-            <img src="./icons/Women.png" class="card-img-top" alt="...">
-            <div class="card-body">
-              <h5 class="card-title">Women's Day</h5>
-              <p class="card-text">Queremos invitarte este 8 de Marzo a nuestra edición 
-                del Progress Not Perfection, donde tendremos a varias 
-                invitadas especiales.</p>
-              <a href="https://gdsc.community.dev/e/mjmnqu/" target="blank" class="btn btn-warning">Ir al Sitio</a>
-            </div>
+          <div class="carousel-item" data-bs-interval="20000">
+            <img src="https://i.postimg.cc/P5bnNrVG/Fondo-6.png" class="d-block w-100" alt="...">
           </div>
-          <div class="card" style="width: 18rem;">
-            <img src="https://i.postimg.cc/vZ0qkddg/Flutter.png" class="card-img-top" alt="...">
-            <div class="card-body">
-              <h5 class="card-title">Flutter Festival</h5>
-              <p class="card-text">
-                💙Flutter Festival ha llegado a la 
-                región de Orizaba este 26 de Marzo del
-                 2021 en el Google Developer Student Clubs 
-                 Universidad Veracruzana 💙</p>
-             <a href="https://gdsc.community.dev/e/m83h44/" target="blank" class="btn btn-warning">Ir al sitio</a>
-            </div>
+          <div class="carousel-item" data-bs-interval="20000">
+            <img src="https://i.postimg.cc/tggm3hNj/Fondo-10.png" class="d-block w-100" alt="...">
           </div>
+          <div class="carousel-item" data-bs-interval="20000">
+            <img src="https://i.postimg.cc/XJvz49zJ/Fondo-7.png" class="d-block w-100" alt="...">
+          </div>
+          <div class="carousel-item" data-bs-interval="20000">
+            <img src="https://i.postimg.cc/V6pQh7k1/Fondo-3.png" class="d-block w-100" alt="...">
+          </div>
+          <div class="carousel-item" data-bs-interval="20000">
+            <img src="https://i.postimg.cc/Qd0zP6fP/Fondo-8.png" class="d-block w-100" alt="...">
+          </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleAutoplaying" data-bs-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleAutoplaying" data-bs-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+      </div>
     </section>
 
-    <section class="eventos"> 
-      <div class="card" style="width: 18rem;">
-          <img src="./icons/David Portilla.png" class="card-img-top" alt="...">
-          <div class="card-body">
-            <h5 class="card-title">Internet of Things</h5>
-            <p class="card-text">Fue uno de los primeros invitados que tuvimos 
-              en nuestra comunidad David Portilla donde estuvo presentando una charla 
-              sobre el Internet de las cosas.</p>
-            <a href="https://gdsc.community.dev/e/m722s6/" target="blank" class="btn btn-warning">Ir al sitio</a>
-          </div>
-        </div>
-        <div class="card" style="width: 18rem;">
-          <img src="./icons/Leonidas esteban.png" class="card-img-top" alt="...">
-          <div class="card-body">
-            <h5 class="card-title">Noches de Latam</h5>
-            <p class="card-text">Creamos una seccion especial en nuestra comunidad
-              del gdsc latam en la cual invitamos a grandes personas a platicar 
-              con ellas, nuestro primer invitado fue Leonidas Esteban
-            </p>
-            <a href="https://gdsc.community.dev/e/m8grkt/" target="blank" class="btn btn-warning">Ir al sitio</a>
-          </div>
-        </div>
-        <div class="card" style="width: 18rem;">
-          <img src="./icons/Solution.png" class="card-img-top" alt="...">
-          <div class="card-body">
-            <h5 class="card-title">Solution Challenge</h5>
-            <p class="card-text">Durante este evento presentamos el Proyecto
-              para todos los GDSC Globales e invitar a la comunidad a participar enviando
-              sus proyectos
-            </p>
-            <a href="https://gdsc.community.dev/e/m5sw54/" target="blank" class="btn btn-warning">Ir al sitio</a>
-          </div>
-        </div>
-        <div class="card" style="width: 18rem;">
-          <img src="./icons/jetpack.png" class="card-img-top" alt="...">
-          <div class="card-body">
-            <h5 class="card-title">Jetpack Compose</h5>
-            <p class="card-text">
-              En la semana Android Study Jams tuvimos la oportunidad de estar
-            con expertos del area en esta ocasion estuvimos con Anahi Salgado</p>
-            <a href="https://gdsc.community.dev/e/mrqfy4/" target="blank" class="btn btn-warning">Ir al sitio</a>
-          </div>
-        </div>
-  </section>
+
+    <section class="eventos">
+        <h1>Eventos</h1>
+        <h3>Comunidades</h3>
+
+        <section class="eventos-img">
+            <div class="card text-bg-dark" onclick="eventos('androidStudy')" style="width: 18rem;">
+                <img src="https://res.cloudinary.com/startup-grind/image/upload/c_limit,dpr_2,f_auto,g_center,h_1440,q_auto:good,w_2048/v1/gcs/platform-data-dsc/event_wrapup/2022-04-30%252006.20.11%25201.jpg" class="card-img" alt="...">
+                <div class="card-img-overlay">
+                  <h5 class="card-title">Android Study Jams</h5>
+                </div>
+              </div>
+
+              <div class="card text-bg-dark" onclick="eventos('community')" style="width: 18rem;">
+                <img src="https://res.cloudinary.com/startup-grind/image/upload/c_limit,dpr_2,f_auto,g_center,h_1440,q_auto:good,w_2048/v1/gcs/platform-data-dsc/event_wrapup/WhatsApp%2520Image%25202022-05-28%2520at%252012.11.35%2520PM.jpeg" class="card-img" alt="...">
+                <div class="card-img-overlay">
+                  <h5 class="card-title">Community Fest</h5>
+                </div>
+              </div>
+
+              <div class="card text-bg-dark" onclick="eventos('googleio')" style="width: 18rem;">
+                <img src="https://res.cloudinary.com/startup-grind/image/upload/c_limit,dpr_2,f_auto,g_center,h_1440,q_auto:good,w_2048/v1/gcs/platform-data-dsc/chapter_photos/WhatsApp%2520Image%25202022-06-26%2520at%252010.13.19%2520AM%2520%25283%2529.jpeg" class="card-img" alt="...">
+                <div class="card-img-overlay">
+                  <h5 class="card-title">Google IO Extended Mexico</h5>
+                </div>
+              </div>
+    
+              <div class="card text-bg-dark" onclick="eventos('infoSession')" style="width: 18rem;">
+                <img src="https://scontent-dfw5-1.xx.fbcdn.net/v/t39.30808-6/296944366_188687923523562_7653040176430167145_n.jpg?_nc_cat=111&ccb=1-7&_nc_sid=730e14&_nc_eui2=AeECuLq13b4iwjWOiRkpH2bF3Cv8Yd9yThbcK_xh33JOFsNj7VkJn6OFtn8J2FcIlYrZSCqR1V6s3ANNRflUEi2x&_nc_ohc=gyEZmM4wctUAX9AK_Zc&_nc_ht=scontent-dfw5-1.xx&oh=00_AfATIyCJkqPSozqeCbGF26T6iqYI0KoJhMZbcdgxMWNFsw&oe=64031700" class="card-img" alt="...">
+                <div class="card-img-overlay">
+                  <h5 class="card-title">Info Session</h5>
+                </div>
+              </div>
+              
+              
+        </section>
+
+        <section class="eventos-img">
+            <div class="card text-bg-dark" onclick="eventos('videojuegos')"  style="width: 18rem;">
+                <img src="https://res.cloudinary.com/startup-grind/image/upload/c_limit,dpr_2,f_auto,g_center,h_1440,q_auto:good,w_2048/v1/gcs/platform-data-dsc/chapter_photos/IMG_5855.jpg" class="card-img" alt="...">
+                <div class="card-img-overlay">
+                  <h5 class="card-title">Videojuegos</h5>
+                </div>
+              </div>
+
+              <div class="card text-bg-dark" onclick="eventos('devfest')" style="width: 18rem;">
+                <img src="https://res.cloudinary.com/startup-grind/image/upload/c_limit,dpr_2,f_auto,g_center,h_1440,q_auto:good,w_2048/v1/gcs/platform-data-dsc/chapter_photos/GTR_8156.jpg" class="card-img" alt="...">
+                <div class="card-img-overlay">
+                  <h5 class="card-title">DevFest</h5>
+                </div>
+              </div>
+
+              <div class="card text-bg-dark" onclick="eventos('googleMexico')" style="width: 18rem;">
+                <img src="https://res.cloudinary.com/startup-grind/image/upload/c_limit,dpr_2,f_auto,g_center,h_1440,q_auto:good,w_2048/v1/gcs/platform-data-dsc/chapter_photos/DevFest_Google%2520%252865%2520of%2520213%2529.png" class="card-img" alt="...">
+                <div class="card-img-overlay">
+                  <h5 class="card-title">Google México</h5>
+                </div>
+              </div>
+    
+              <div class="card text-bg-dark" onclick="eventos('techMania')" style="width: 18rem;">
+                <img src="https://i.postimg.cc/T1RS1c1V/IMG-8549.jpg" class="card-img" alt="...">
+                <div class="card-img-overlay">
+                  <h5 class="card-title">TechMania</h5>
+                </div>
+              </div>
+              
+        </section>
+
+        <section class="eventos-img">
+            <div class="card text-bg-dark" style="width: 18rem;">
+                <img src="https://res.cloudinary.com/startup-grind/image/upload/c_limit,dpr_2,f_auto,g_center,h_1440,q_auto:good,w_2048/v1/gcs/platform-data-dsc/event_wrapup/Captura%2520de%2520pantalla%2520%2528172%2529.png" class="card-img" alt="...">
+                <div class="card-img-overlay">
+                  <h5 class="card-title">Latam Conference</h5>
+                </div>
+              </div>
+
+              <div class="card text-bg-dark" style="width: 18rem;">
+                <img src="https://res.cloudinary.com/startup-grind/image/upload/c_limit,dpr_2,f_auto,g_center,h_1440,q_auto:good,w_2048/v1/gcs/platform-data-dsc/event_wrapup/Captura%2520de%2520pantalla%2520%2528993%2529_K3XFyoH.png" class="card-img" alt="...">
+                <div class="card-img-overlay">
+                  <h5 class="card-title">Community Fest</h5>
+                </div>
+              </div>
+
+              <div class="card text-bg-dark" style="width: 18rem;">
+                <img src="https://res.cloudinary.com/startup-grind/image/upload/c_limit,dpr_2,f_auto,g_center,h_1440,q_auto:good,w_2048/v1/gcs/platform-data-dsc/event_wrapup/Captura%2520de%2520pantalla%2520%2528577%2529.png" class="card-img" alt="...">
+                <div class="card-img-overlay">
+                  <h5 class="card-title">Solution Challenge</h5>
+                </div>
+              </div>
+    
+              <div class="card text-bg-dark" style="width: 18rem;">
+                <img src="https://scontent-dfw5-1.xx.fbcdn.net/v/t39.30808-6/314695950_207293918331839_285905770197406693_n.jpg?_nc_cat=103&ccb=1-7&_nc_sid=730e14&_nc_eui2=AeFvLx5twFT1jCt8FYn8bU1yUuT05-Vqr4BS5PTn5WqvgPSH5NwjsMPHC6tiJiMH8Unp4stGeVKz1qjL9F3kzWuR&_nc_ohc=EL4ZbXs5eaoAX9OF_Xg&_nc_ht=scontent-dfw5-1.xx&oh=00_AfCSpN08NHXDs8tXG2Sda4Nb3r9CQJzp7XWSk7pEcSNbsg&oe=64032861" class="card-img" alt="...">
+                <div class="card-img-overlay">
+                  <h5 class="card-title">Road to Devfest</h5>
+                </div>
+              </div>
+        </section>
+
+        <section class="contenedor">
+          <div id="eventos-des"></div>
+          <div id="eventos-descripcion"></div>   
+        </section>
+
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js" integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN" crossorigin="anonymous"></script>
 </body>
 </html>
